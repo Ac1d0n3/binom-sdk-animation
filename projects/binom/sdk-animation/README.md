@@ -1,24 +1,49 @@
-# SdkAnimation
+# @binom/sdk-animation
+---------------------------------------------------------------------------------
+** CORE V1.0.0
+Author: Thomas Lindackers 
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+BINOM.net
 
-## Code scaffolding
+Nov 2023
 
-Run `ng generate component component-name --project sdk-animation` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project sdk-animation`.
-> Note: Don't forget to add `--project sdk-animation` or else it will be added to the default project in your `angular.json` file. 
+npm i @binom/sdk-animation
 
-## Build
+---------------------------------------------------------------------------------
 
-Run `ng build sdk-animation` to build the project. The build artifacts will be stored in the `dist/` directory.
+## includes
 
-## Publishing
+- bnAos Component / Directive / Svc (Animate on Scroll)
+- AnimationChainService --> creates a setTimeOutChain to change cssClasses 
 
-After building your library with `ng build sdk-animation`, go to the dist folder `cd dist/sdk-animation` and run `npm publish`.
+### Effects
+- beat
+- bounce
+- flip
+- head-shake
+- jello
+- pulse
+- rubber-band
+- shake
+- swing
+- tada
+- wobble
 
-## Running unit tests
+### In
 
-Run `ng test sdk-animation` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- bounceIn Direction
+- bumpIn Direction
+- fadeIn Direction
+- flipIn Direction
+- jackInTheBox
+- landing
+- rollIn Direction
+- zoomIn Direction
 
-## Further help
+### Out
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- bounceOut Direction
+- fadeOut Direction
+- hings
+- rollOut Direction
+- zoomOut Direction
