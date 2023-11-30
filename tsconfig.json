@@ -3,6 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
+      "@binom/sdk-animation/*": [
+        "./dist/binom/sdk-animation/*"
+      ],
       "@binom/sdk-animation": [
         "./dist/binom/sdk-animation"
       ]
