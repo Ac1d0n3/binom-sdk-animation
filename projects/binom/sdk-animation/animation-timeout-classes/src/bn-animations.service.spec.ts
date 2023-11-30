@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SdkAnimationService } from './sdk-animation.service';
+import { BnAnimationsService } from './bn-animations.service';
 
-describe('SdkAnimationService', () => {
-  let service: SdkAnimationService;
+describe('BnAnimationsService', () => {
+  let service: BnAnimationsService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(SdkAnimationService);
+    service = TestBed.inject(BnAnimationsService);
   });
 
   it('should be created', () => {
