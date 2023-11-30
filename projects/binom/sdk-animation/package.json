@@ -15,7 +15,7 @@
     "migrations": "./schematics/migrations.json"
   },
   "scripts": {
-    "build:sass": "sass styles/animation.scss assets/animation.css",
+    "build:sass": "sass styles/animation.scss assets/sdk-animation/animation.css",
     "build:schematics": "tsc -p tsconfig.schematics.json",
     "postbuild:schematics": "copyfiles schematics/migrations.json schematics/collection.json ../../../dist/binom/sdk-animation/"
   },

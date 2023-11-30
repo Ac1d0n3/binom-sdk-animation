@@ -1,0 +1,27 @@
+{   
+   "signIn":"Einloggen",
+   
+    "charslong": "Zeichen lang sein",
+    "bnPassword":{
+        "contains": "muss",
+        "mustbe": "muss mindesens",
+        "errors":{
+          "password":{
+            "required": "Password ist erforderlich" ,
+            "notEqual": "Password stimmt nicht überein" ,
+            "minlength": "Password muss mindestens ",
+            "maxlength": "Password darf maximal",
+            "special": "Sonderzeichen enthalten",
+            "upper": "Großbuchtstab(en) enthalten",
+            "lower": "Kleinbuchstab(en) enthalen",
+            "digit": " Zahl(en) enttahlen",
+            "notsecure": "Password nicht sicher"
+          },
+          "password_repeat":{
+            "required": "Password repeat ist erforderlich" ,
+            "minlength": "Password repeat muss mindestens ",
+            "maxlength": "Password repeat darf maximal"
+          }
+        }
+      }
+}

@@ -1,0 +1,40 @@
+@-webkit-keyframes bgfade {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@-moz-keyframes bgfade {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@keyframes bgfade {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+
+@-webkit-keyframes themeColorChange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes themeColorChange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes themeColorChange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.hide-item { opacity: 0;}
+.show-item { opacity: 1;}
+.fade-in-item {  animation: fadeItemIn 1s ease-in forwards; }
+.fade-out-item {  animation: fadeItemOut 1s ease-out forwards;  }
+@keyframes fadeItemIn { to { opacity: 1; } }
+@keyframes fadeItemnOut { to { opacity: 0; } }
+

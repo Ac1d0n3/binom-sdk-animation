@@ -1,0 +1,25 @@
+{
+    "charslong": "chars long",
+    "bnPassword":{
+        "contains": "contains at least",
+        "mustbe": "must be at least",
+        "errors":{
+          "password":{
+            "required": "Password is required" ,
+            "notEqual": "Password does not match" ,
+            "minlength": "Password must be at least ",
+            "maxlength": "Password must be maximum ",
+            "special": "Special character",
+            "upper": "Uppercase letter",
+            "lower": "Lowercase letter",
+            "digit": "Number",
+            "notsecure": "Password not secure"
+          },
+          "password_repeat":{
+            "required": "Password repeat is required" ,
+            "minlength": "Password repeat must be at least ",
+            "maxlength": "Password repeat must be maximum "
+          }
+        }
+      }
+}
