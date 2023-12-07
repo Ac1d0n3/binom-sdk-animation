@@ -1,6 +1,6 @@
 # @binom/sdk-animation
 ---------------------------------------------------------------------------------
-** CORE V1.0.0
+** CORE V1.0.1
 Author: Thomas Lindackers 
 
 BINOM.net
@@ -10,6 +10,10 @@ Nov 2023
 npm i @binom/sdk-animation
 
 ---------------------------------------------------------------------------------
+
+## What's New / Updates
+
+1.0.1 addes assests and styles to export
 
 ## includes
 
